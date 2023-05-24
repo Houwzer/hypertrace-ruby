@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
-  spec.add_dependency 'google-protobuf', '3.21.5'
+  spec.add_dependency 'google-protobuf', '~> 3.21.7'
   spec.add_dependency 'opentelemetry-api', '1.0.2'
   spec.add_dependency 'opentelemetry-sdk', '1.1.0'
   spec.add_dependency 'opentelemetry-propagator-b3', '0.20.0'
